@@ -1,22 +1,25 @@
-# Aimilios Romaios — Portfolio
+# Aimilios Romaios portfolio template
 
-Static portfolio site (HTML/CSS/JS, no build step) for GitHub Pages:
-https://aimiliosromaios.github.io/portfolio/
+Open `index.html` in any browser to preview the site.
 
-## Structure
-```
-index.html        page content (all sections)
-css/style.css     styles (dark/light via prefers-color-scheme)
-js/main.js        nav, tabs, lightbox, scroll reveal
-assets/img/       optimised WebP images
-favicon.svg
-.nojekyll
-```
+## Publish it at GitHub Pages
 
-## Deploy
-Push to the branch GitHub Pages serves (Settings → Pages), then wait ~1 minute.
+Your final public address will be:
 
-## Editing
-- Text lives in `index.html`; each project is its own `<section>`.
-- Add images to `assets/img/` (WebP, max ~1600px wide) and reference them with width/height attributes.
-- Accent colour and fonts: variables at the top of `css/style.css`.
+`https://aimiliosromaios.github.io/portfolio/`
+
+1. Sign in to GitHub and create a new public repository named exactly `portfolio`.
+2. Upload the complete contents of this folder — `index.html`, `styles.css`, `script.js`, `README.md` and the `assets` folder — into that repository.
+3. In the repository, open **Settings** → **Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and the `/ (root)` folder, then save.
+6. Wait one or two minutes; GitHub will show the live website link in the Pages section.
+
+## Quick editing guide
+
+- Update text and links directly in `index.html`.
+- Put replacement images in `assets/`, then change the relevant `src="assets/..."` value in `index.html`.
+- Colours, spacing and mobile layout are controlled from `styles.css`.
+- The three expandable CFD sections use normal HTML `<details>` elements; duplicate one to add more sections.
+
+No installation, build process or framework is required.
