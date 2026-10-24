@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aimilios Romaios — Mechanical Engineering, CFD and Aerodynamics portfolio." />
+    <title>Engineering | Aimilios Romaios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header"><a class="brand" href="index.html" aria-label="Aimilios Romaios home">AR<span> / </span>MECHANICAL DESIGN</a><button class="menu-toggle" aria-controls="site-nav" aria-expanded="false" hidden>Menu <span aria-hidden="true">+</span></button><nav id="site-nav" aria-label="Main navigation"><a href="index.html">Overview</a><a href="engineering.html" aria-current="page">Engineering</a><a href="visualisation.html">3D &amp; Rendering</a><a href="education.html">Education</a><a href="creative.html">Art &amp; Design</a><a href="index.html#contact">Contact ↗</a></nav></header>
+    <main class="page-shell" id="main">
+      <header class="hero" id="top">
+        <p class="eyebrow">CAD · CFD · PROTOTYPING</p>
+        <h1>Engineering<br />in practice<span class="accent">.</span></h1>
+        <p class="intro">Race-car aerodynamics, collaborative UAV development and hands-on vehicle engineering.</p>
+        <nav class="section-nav" aria-label="Engineering sections"><a href="#f1">01 / F1 &amp; CFD</a><a href="#comparison">02 / Toyota comparison</a><a href="#hyperion">03 / Hyperion</a><a href="#kteo">04 / KTEO</a><a href="#personal">05 / Personal CAD</a></nav>
+        <div class="identity-tags" aria-label="Profile summary">
+          <span><b>Discipline</b> Mechanical Engineering</span>
+          <span><b>Focus</b> CFD · Aerodynamics · Motorsport</span>
+          <span><b>Tools</b> Fusion 360 · SOLIDWORKS Flow</span>
+        </div>
+      </header>
+
+      <div class="content-grid">
+        <section id="f1" aria-labelledby="projects-title">
+          <div class="section-label"><span>Selected work</span><i></i></div>
+          <article class="project-card">
+            <div class="project-hero">
+              <img src="assets/f1-hero.png" alt="Formula 1-inspired race car CAD render" />
+              <span class="project-badge">Featured project</span>
+              <div class="image-shade"></div>
+              <div class="project-title">
+                <p>Diploma thesis · CAD development & external-flow CFD</p>
+                <h2 id="projects-title">Formula 1-Inspired Race Car</h2>
+                <span>Formula 1 Car — CFD Aerodynamic Analysis</span>
+              </div>
+            </div>
+
+            <div class="project-summary">
+              <p>3D vehicle development and external-flow CFD analysis investigating velocity, surface pressure, drag and downforce.</p>
+              <div class="workflow" aria-label="Engineering workflow">
+                <span>CAD</span><i>→</i><span>CFD setup</span><i>→</i><span>Simulation</span><i>→</i><span>Analysis</span>
+              </div>
+            </div>
+
+            <div class="accordions">
+              <details>
+                <summary>
+                  <img src="assets/fusion-cad.png" alt="Formula 1-inspired car model in Fusion 360" />
+                  <span><b>CAD Development</b><small>Vehicle bodywork and aerodynamic-component geometry created in Autodesk Fusion 360.</small></span>
+                </summary>
+                <div class="detail-content two-column">
+                  <p>A 3D Formula 1-inspired vehicle model was developed as the geometric foundation for the aerodynamic study. The model includes the principal bodywork and aerodynamic components used in the simulation.</p>
+                  <ul><li>3D vehicle-geometry development</li><li>Bodywork and aerodynamic components</li><li>Simulation-ready CAD preparation</li></ul>
+                </div>
+              </details>
+
+              <details>
+                <summary>
+                  <img src="assets/cfd-domain.png" alt="External-flow CFD computational domain" />
+                  <span><b>CFD Setup & Mesh</b><small>External-flow domain, boundary configuration and mesh visualisation for the vehicle model.</small></span>
+                </summary>
+                <div class="detail-content setup-grid">
+                  <figure><img src="assets/cfd-domain.png" alt="Computational domain around vehicle" /><figcaption>External-flow computational domain</figcaption></figure>
+                  <figure><img src="assets/mesh.png" alt="Mesh refinement around vehicle" /><figcaption>Mesh visualisation</figcaption></figure>
+                  <p>The computational domain encloses the vehicle to capture upstream flow, interaction with the bodywork and the downstream wake. Boundary conditions define incoming airflow, outlet pressure and fluid interaction with vehicle surfaces. The mesh represents the aerodynamic surfaces and regions of potential separation and wake development.</p>
+                </div>
+              </details>
+
+              <details>
+                <summary>
+                  <img src="assets/flow-streamlines.png" alt="Airflow streamlines around the vehicle" />
+                  <span><b>Flow Analysis & Results</b><small>Velocity, pressure and aerodynamic-force assessment of the Formula 1-inspired vehicle.</small></span>
+                </summary>
+                <div class="detail-content results-grid">
+                  <figure><img src="assets/flow-streamlines.png" alt="Flow streamlines around Formula 1-inspired vehicle" /><figcaption>Flow-field streamlines</figcaption></figure>
+                  <figure><img src="assets/surface-results.png" alt="Surface result visualisation of Formula 1-inspired vehicle" /><figcaption>Surface-result visualisation</figcaption></figure>
+                  <p>The analysis examines airflow behaviour around the vehicle and links geometry to velocity distribution, surface pressure, drag and downforce generation. These visualisations form part of the thesis, “Aerodynamic Analysis of an F1 Race Car Using Computational Fluid Dynamics.”</p>
+                </div>
+              </details>
+            </div>
+            <div class="project-tags"><span>CFD</span><span>External aerodynamics</span><span>Vehicle design</span><span>Flow visualisation</span><span>CAD</span></div>
+          </article>
+
+        </section>
+
+        <aside class="sidebar">
+          <section class="side-card profile-card">
+            <p class="mini-label">Profile</p>
+            <h2>Overview</h2>
+            <p>Mechanical engineer with a focus on computational fluid dynamics, vehicle aerodynamics and engineering design workflows.</p>
+            <p class="profile-detail">This portfolio presents my diploma thesis: a CFD aerodynamic analysis of a Formula 1-inspired race car, from 3D CAD development through simulation and results interpretation.</p>
+          </section>
+          <section class="side-card">
+            <p class="mini-label">Technical toolkit</p>
+            <h2>Software</h2>
+            <ul class="skills"><li>Autodesk Fusion 360</li><li>SOLIDWORKS Flow Simulation</li><li>3D CAD development</li><li>External-flow CFD</li><li>Flow visualisation</li></ul>
+          </section>
+          <section class="side-card"><p class="mini-label">TECHNICAL SCOPE</p><ul class="skills"><li>3D vehicle geometry development</li><li>External aerodynamic simulation</li><li>Velocity &amp; pressure distribution</li><li>Drag &amp; downforce assessment</li></ul></section>
+        </aside>
+      </div>
+      <section id="comparison" class="section-block" aria-labelledby="comparison-title">
+        <p class="eyebrow">02 / CFD WORKFLOW</p><h2 class="section-title" id="comparison-title">Two configurations.<br />A comparative investigation.</h2>
+        <div class="split-layout"><div class="prose"><h3>Toyota TS010 reference model</h3><p>A 3D model of the Toyota TS010 Group C prototype was developed as part of the thesis. Its body geometry, aerodynamic surfaces and proportions provide a different racing-car configuration for comparative aerodynamic investigation.</p><p>Both models were studied through external-flow CFD. Pressure distribution, velocity patterns and wake development were used to examine how vehicle geometry influences airflow.</p></div><figure class="gallery-figure"><a href="assets/portfolio/toyota-cad.webp" data-lightbox><img src="assets/portfolio/toyota-cad.webp" alt="Toyota TS010 reference vehicle CAD render" loading="lazy" /></a><figcaption>Toyota TS010 · reference CAD model</figcaption></figure></div>
+        <ol class="process-list"><li><b>Prepare the geometry</b><span>Develop the vehicle in Fusion 360 and prepare it for external-flow analysis.</span></li><li><b>Define the simulation</b><span>Set the computational domain, boundary conditions and mesh in SOLIDWORKS Flow Simulation.</span></li><li><b>Study the flow</b><span>Investigate velocity, surface pressure and the downstream wake.</span></li><li><b>Interpret the comparison</b><span>Relate the observed flow patterns to each vehicle’s configuration.</span></li></ol>
+        <div class="gallery-grid comparison-grid">
+          <figure class="gallery-figure"><a href="assets/portfolio/f1-velocity.webp" data-lightbox><img src="assets/portfolio/f1-velocity.webp" alt="Velocity streamlines around the Formula 1-inspired model" loading="lazy" /></a><figcaption>F1 model / flow velocity</figcaption></figure>
+          <figure class="gallery-figure"><a href="assets/portfolio/toyota-velocity.webp" data-lightbox><img src="assets/portfolio/toyota-velocity.webp" alt="Velocity streamlines around the Toyota TS010 model" loading="lazy" /></a><figcaption>Toyota TS010 / flow velocity</figcaption></figure>
+          <figure class="gallery-figure"><a href="assets/portfolio/f1-pressure.webp" data-lightbox><img src="assets/portfolio/f1-pressure.webp" alt="Surface pressure distribution on the Formula 1-inspired model" loading="lazy" /></a><figcaption>F1 model / surface pressure</figcaption></figure>
+          <figure class="gallery-figure"><a href="assets/portfolio/toyota-pressure.webp" data-lightbox><img src="assets/portfolio/toyota-pressure.webp" alt="Surface pressure distribution on the Toyota TS010 model" loading="lazy" /></a><figcaption>Toyota TS010 / surface pressure</figcaption></figure>
+        </div>
+        <p class="figure-note">Select an image to inspect it at a larger size. The comparison is qualitative; numerical coefficients and a validated performance ranking are not presented here.</p>
+        <details class="supplementary"><summary>Additional CAD &amp; simulation views</summary><div class="gallery-grid"><figure class="gallery-figure"><a href="assets/cfd-domain-streamlines.png" data-lightbox><img src="assets/cfd-domain-streamlines.png" alt="Additional external-flow computational domain and streamline view" loading="lazy" /></a><figcaption>Computational domain &amp; streamlines</figcaption></figure><figure class="gallery-figure"><a href="assets/portfolio/fluent-workspace.webp" data-lightbox><img src="assets/portfolio/fluent-workspace.webp" alt="Vehicle simulation workspace in ANSYS Fluent" loading="lazy" /></a><figcaption>Simulation workspace · ANSYS Fluent</figcaption></figure><figure class="gallery-figure"><a href="assets/portfolio/simscale-workspace.webp" data-lightbox><img src="assets/portfolio/simscale-workspace.webp" alt="Race-car geometry displayed in SimScale" loading="lazy" /></a><figcaption>Geometry workspace · SimScale</figcaption></figure><figure class="gallery-figure"><a href="assets/portfolio/ferrari-cover.webp" data-lightbox><img src="assets/portfolio/ferrari-cover.webp" alt="Ferrari SF-70H Fusion 360 render from the portfolio cover" loading="lazy" /></a><figcaption>Portfolio cover · Ferrari SF-70H Fusion 360 render</figcaption></figure></div></details>
+      </section>
+      <section id="hyperion" class="section-block" aria-labelledby="hyperion-title"><p class="eyebrow">03 / COLLABORATIVE ENGINEERING</p><h2 class="section-title" id="hyperion-title">Hyperion Drone Team</h2><p class="section-intro">One year contributing to a multidisciplinary university team developing unmanned aerial vehicles.</p><div class="split-layout"><figure class="gallery-figure"><a href="assets/portfolio/hyperion-cad.webp" data-lightbox><img src="assets/portfolio/hyperion-cad.webp" alt="Hyperion drone structural assembly in CAD" loading="lazy" /></a><figcaption>UAV component development &amp; CAD assembly</figcaption></figure><div class="prose"><h3>CAD &amp; UAV development</h3><p>I contributed to the second version of the team’s original drone through CAD modelling and mechanical design. My work supported structural component refinement, concept evaluation and preparation for manufacturing.</p><h3>Rapid prototyping</h3><p>I developed 3D-printed prototypes and supported manufacturing and hardware integration, helping translate digital designs into physical components.</p><h3>Testing &amp; refinement</h3><p>Working with fellow engineering students, I helped evaluate prototypes, identify improvements and refine component designs. The experience connected design and manufacturing decisions with practical UAV development and flight performance.</p></div></div><div class="gallery-grid"><figure class="gallery-figure"><a href="assets/portfolio/hyperion-prototype.webp" data-lightbox><img src="assets/portfolio/hyperion-prototype.webp" alt="Assembled Hyperion drone prototype on a workshop bench" loading="lazy" /></a><figcaption>Assembled prototype / hardware integration</figcaption></figure><figure class="gallery-figure"><a href="assets/portfolio/hyperion-flight.webp" data-lightbox><img src="assets/portfolio/hyperion-flight.webp" alt="Hyperion UAV flying outdoors during testing" loading="lazy" /></a><figcaption>UAV testing / design refinement</figcaption></figure></div></section>
+      <section id="kteo" class="section-block" aria-labelledby="kteo-title"><p class="eyebrow">04 / VEHICLE ENGINEERING EXPOSURE</p><h2 class="section-title" id="kteo-title">Vehicle inspection in practice.</h2><p class="section-intro">Assistant Inspector · KTEO Ioniki S.A.<br /><span class="muted">Pyrgos, Greece / September–November 2024</span></p><div class="split-layout"><div class="prose"><p>During my internship, I assisted with automotive inspection procedures, vehicle testing and safety assessment. This included vehicle identification, registration verification and exhaust-emission checks on petrol and diesel vehicles.</p><p>I operated brake testing, suspension shock testing and camber measurement equipment to support assessment of vehicle condition and safety.</p><p>The experience strengthened my understanding of vehicle systems and systematic technical evaluation, with particular attention to measurement accuracy, inspection requirements and practical automotive testing.</p><div class="project-tags"><span>Vehicle inspection</span><span>Emissions testing</span><span>Automotive testing equipment</span><span>Safety assessment</span></div></div><div class="gallery-grid"><figure class="gallery-figure"><img src="assets/portfolio/kteo-facility.webp" alt="KTEO Ioniki vehicle inspection facility" loading="lazy" /><figcaption>KTEO Ioniki S.A.</figcaption></figure><figure class="gallery-figure"><img src="assets/portfolio/kteo-testing.webp" alt="Vehicle positioned on inspection testing equipment" loading="lazy" /><figcaption>Vehicle testing equipment</figcaption></figure></div></div></section>
+      <section id="personal" class="section-block" aria-labelledby="personal-title"><p class="eyebrow">05 / PERSONAL DESIGN PROJECTS</p><h2 class="section-title" id="personal-title">Components with a purpose.</h2><p class="section-intro">Independent projects exploring mechanical geometry, component integration and practical design.</p><div class="gallery-grid"><article class="component-project"><figure class="gallery-figure"><a href="assets/portfolio/esp32-enclosure.webp" data-lightbox><img src="assets/portfolio/esp32-enclosure.webp" alt="Two halves of a custom ESP32-S3 LCD enclosure" loading="lazy" /></a><figcaption>Wearable component housing</figcaption></figure><h3>ESP32-S3 LCD enclosure</h3><p>A custom enclosure for an ESP32-S3 LCD device, designed to attach to an athlete’s vest while keeping the display visible and accessible. The design considers component housing, secure mounting and screen access for sports use.</p></article><article class="component-project"><figure class="gallery-figure"><a href="assets/portfolio/ambulance-lever.webp" data-lightbox><img src="assets/portfolio/ambulance-lever.webp" alt="Rendered mechanical lever component intended for an ambulance-bed lifting mechanism" loading="lazy" /></a><figcaption>Mechanical component geometry</figcaption></figure><h3>Lever CAD</h3><p>A mechanical lever intended to assist with lifting an ambulance bed. The project explores geometry for integration into a lifting mechanism, considering intended movement and mechanical function.</p></article></div><a class="next-page" href="visualisation.html">Continue exploring <span>Automotive modelling &amp; rendering ↗</span></a></section>
+      <footer><span>© <span id="year">2026</span> Aimilios Romaios · Mechanical Engineering Portfolio</span><a href="#main">Back to top ↑</a></footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

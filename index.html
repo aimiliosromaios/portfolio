@@ -1,124 +1,65 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Aimilios Romaios — Mechanical Engineering, CFD and Aerodynamics portfolio." />
-    <title>Aimilios Romaios | CFD & Aerodynamics</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="page-shell">
-      <header class="hero" id="top">
-        <p class="eyebrow">MECHANICAL ENGINEERING · CFD · AERODYNAMICS</p>
-        <h1>Aimilios Romaios</h1>
-        <!-- Replace this sentence with your own final personal statement. -->
-        <p class="intro">Mechanical engineer exploring race-car aerodynamics through CFD, CAD development and data-led design decisions.</p>
-        <div class="contact-links">
-          <!-- Replace # with your real links. -->
-          <a href="mailto:your-email@example.com">Email</a>
-          <a href="#">LinkedIn</a>
-          <a href="https://github.com/aimiliosromaios" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="#">Download CV</a>
-        </div>
-        <div class="identity-tags" aria-label="Profile summary">
-          <span><b>Discipline</b> Mechanical Engineering</span>
-          <span><b>Focus</b> CFD · Aerodynamics · Motorsport</span>
-          <span><b>Tools</b> Fusion 360 · SOLIDWORKS Flow</span>
-        </div>
-      </header>
-
-      <div class="content-grid">
-        <section aria-labelledby="projects-title">
-          <div class="section-label"><span>Selected work</span><i></i></div>
-          <article class="project-card">
-            <div class="project-hero">
-              <img src="assets/f1-hero.png" alt="Formula 1-inspired race car CAD render" />
-              <span class="project-badge">Featured project</span>
-              <div class="image-shade"></div>
-              <div class="project-title">
-                <p>Diploma thesis · CAD development & external-flow CFD</p>
-                <h2 id="projects-title">Formula 1-Inspired Race Car</h2>
-                <span>Formula 1 Car — CFD Aerodynamic Analysis</span>
-              </div>
-            </div>
-
-            <div class="project-summary">
-              <p>3D vehicle development and external-flow CFD analysis investigating velocity, surface pressure, drag and downforce.</p>
-              <div class="workflow" aria-label="Engineering workflow">
-                <span>CAD</span><i>→</i><span>CFD setup</span><i>→</i><span>Simulation</span><i>→</i><span>Analysis</span>
-              </div>
-            </div>
-
-            <div class="accordions">
-              <details>
-                <summary>
-                  <img src="assets/fusion-cad.png" alt="Formula 1-inspired car model in Fusion 360" />
-                  <span><b>CAD Development</b><small>Vehicle bodywork and aerodynamic-component geometry created in Autodesk Fusion 360.</small></span>
-                </summary>
-                <div class="detail-content two-column">
-                  <p>A 3D Formula 1-inspired vehicle model was developed as the geometric foundation for the aerodynamic study. The model includes the principal bodywork and aerodynamic components used in the simulation.</p>
-                  <ul><li>3D vehicle-geometry development</li><li>Bodywork and aerodynamic components</li><li>Simulation-ready CAD preparation</li></ul>
-                </div>
-              </details>
-
-              <details>
-                <summary>
-                  <img src="assets/cfd-domain.png" alt="External-flow CFD computational domain" />
-                  <span><b>CFD Setup & Mesh</b><small>External-flow domain, boundary configuration and mesh visualisation for the vehicle model.</small></span>
-                </summary>
-                <div class="detail-content setup-grid">
-                  <figure><img src="assets/cfd-domain.png" alt="Computational domain around vehicle" /><figcaption>External-flow computational domain</figcaption></figure>
-                  <figure><img src="assets/mesh.png" alt="Mesh refinement around vehicle" /><figcaption>Mesh visualisation</figcaption></figure>
-                  <p>Use this area later to add your actual boundary conditions, mesh strategy, turbulence model, convergence approach and any validation information.</p>
-                </div>
-              </details>
-
-              <details>
-                <summary>
-                  <img src="assets/flow-streamlines.png" alt="Airflow streamlines around the vehicle" />
-                  <span><b>Flow Analysis & Results</b><small>Velocity, pressure and aerodynamic-force assessment of the Formula 1-inspired vehicle.</small></span>
-                </summary>
-                <div class="detail-content results-grid">
-                  <figure><img src="assets/flow-streamlines.png" alt="Flow streamlines around Formula 1-inspired vehicle" /><figcaption>Flow-field streamlines</figcaption></figure>
-                  <figure><img src="assets/surface-results.png" alt="Surface result visualisation of Formula 1-inspired vehicle" /><figcaption>Surface-result visualisation</figcaption></figure>
-                  <p>The analysis examines airflow behaviour around the vehicle and links geometry to velocity distribution, surface pressure, drag and downforce generation. Replace this with your specific findings once you have them written.</p>
-                </div>
-              </details>
-            </div>
-            <div class="project-tags"><span>CFD</span><span>External aerodynamics</span><span>Vehicle design</span><span>Flow visualisation</span><span>CAD</span></div>
-          </article>
-
-          <article class="coming-card">
-            <p>Next project</p>
-            <h2>Your second engineering case study</h2>
-            <span>Add a new card here when you are ready — for example, a CAD, simulation or motorsport design project.</span>
-          </article>
-        </section>
-
-        <aside class="sidebar">
-          <section class="side-card profile-card">
-            <p class="mini-label">Profile</p>
-            <h2>Overview</h2>
-            <p>Mechanical engineer with a focus on computational fluid dynamics, vehicle aerodynamics and engineering design workflows.</p>
-            <p class="profile-detail">This portfolio presents my diploma thesis: a CFD aerodynamic analysis of a Formula 1-inspired race car, from 3D CAD development through simulation and results interpretation.</p>
-          </section>
-          <section class="side-card">
-            <p class="mini-label">Technical toolkit</p>
-            <h2>Software</h2>
-            <ul class="skills"><li>Autodesk Fusion 360</li><li>SOLIDWORKS Flow Simulation</li><li>3D CAD development</li><li>External-flow CFD</li><li>Flow visualisation</li></ul>
-          </section>
-          <section class="side-card edit-note">
-            <p class="mini-label">Editable template</p>
-            <p>Replace the placeholder links, profile text, project notes and add your numerical CFD results when ready.</p>
-          </section>
-        </aside>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Aimilios Romaios — mechanical engineer in Greece. Explore CAD, CFD, automotive design, UAV development and automotive illustration." />
+  <title>Aimilios Romaios | Mechanical Design Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Aimilios Romaios home">AR<span> / </span>MECHANICAL DESIGN</a>
+    <button class="menu-toggle" aria-controls="site-nav" aria-expanded="false" hidden>Menu <span aria-hidden="true">+</span></button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Overview</a><a href="engineering.html">Engineering</a><a href="visualisation.html">3D &amp; Rendering</a><a href="education.html">Education</a><a href="creative.html">Art &amp; Design</a><a href="index.html#contact">Contact ↗</a>
+    </nav>
+  </header>
+  <main id="main" class="page-shell">
+    <section class="home-hero" aria-labelledby="name">
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFOLIO / 2026 · GREECE</p>
+        <h1 id="name">Aimilios<br />Romaios<span class="accent">.</span></h1>
+        <p class="hero-role">Mechanical Engineer<br /><span>Automotive Design · Motorsport &amp; Simulation</span></p>
+        <p class="intro">Exploring vehicle performance through mechanical design, 3D CAD development and aerodynamic analysis.</p>
+        <div class="actions"><a class="button" href="engineering.html">Explore engineering <span aria-hidden="true">↗</span></a><a class="text-link" href="#profile">About me ↓</a></div>
       </div>
-      <footer>© <span id="year"></span> Aimilios Romaios · Mechanical Engineering Portfolio</footer>
-    </main>
-    <script src="script.js"></script>
-  </body>
+      <figure class="hero-visual">
+        <img src="assets/f1-hero.png" alt="Red Formula 1-inspired race car developed in CAD" width="609" height="256" fetchpriority="high" />
+        <figcaption><span>01 / FEATURED WORK</span>F1 aerodynamic analysis · CAD to CFD</figcaption>
+      </figure>
+    </section>
+    <div class="identity-strip"><span>Mechanical design</span><span>External aerodynamics</span><span>Simulation &amp; prototyping</span></div>
+    <section id="profile" class="section-block profile-layout" aria-labelledby="profile-title">
+      <div><p class="eyebrow">PROFILE</p><h2 id="profile-title" class="section-title">Design informed<br />by engineering.</h2></div>
+      <div class="prose"><p>I am a Mechanical Engineer from Greece with a strong interest in automotive and motorsport engineering, particularly mechanical design, vehicle aerodynamics and computational simulation. My background combines CAD development, CFD analysis, prototyping and practical exposure to vehicle systems.</p><p>For my final-year thesis, I developed a Formula 1-inspired race car model and studied its aerodynamic performance through airflow behaviour and pressure distribution. With the Hyperion Drone Team, I contributed to component development, aerodynamic configuration and 3D printing within a collaborative engineering environment.</p><p>I am interested in opportunities to develop as a mechanical or automotive design engineer and contribute to the design, analysis and development of high-performance engineering systems.</p><a class="text-link" href="education.html">Education &amp; professional development ↗</a></div>
+    </section>
+    <section class="section-block" aria-labelledby="selected-title">
+      <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2 id="selected-title" class="section-title">From geometry to performance.</h2></div><a class="text-link" href="engineering.html">All engineering work ↗</a></div>
+      <div class="work-grid">
+        <a class="work-card work-featured" href="engineering.html#f1"><img src="assets/flow-streamlines.png" alt="Flow streamlines surrounding the Formula 1-inspired car" loading="lazy" /><div><p class="mini-label">01 / DIPLOMA THESIS</p><h3>F1 aerodynamic analysis</h3><p>Vehicle CAD, external-flow CFD and comparative investigation with the Toyota TS010.</p><span class="text-link">Explore the case study ↗</span></div></a>
+        <a class="work-card" href="engineering.html#hyperion"><img src="assets/portfolio/hyperion-cad.webp" alt="Hyperion UAV CAD assembly" loading="lazy" /><div><p class="mini-label">02 / TEAM ENGINEERING</p><h3>Hyperion Drone Team</h3><p>Component development, rapid prototyping and design refinement.</p><span class="text-link">View contribution ↗</span></div></a>
+        <a class="work-card" href="visualisation.html#mcl36"><img src="assets/portfolio/mcl36-front.webp" alt="Papaya-orange McLaren MCL36 Blender render" loading="lazy" /><div><p class="mini-label">03 / 3D VISUALISATION</p><h3>McLaren MCL36</h3><p>Automotive modelling, materials and studio lighting in Blender.</p><span class="text-link">See the renders ↗</span></div></a>
+      </div>
+      <div class="index-links"><a href="engineering.html#personal">Personal CAD projects ↗</a><a href="engineering.html#kteo">Vehicle inspection experience ↗</a><a href="creative.html">Automotive illustration ↗</a></div>
+    </section>
+    <section id="toolkit" class="section-block" aria-labelledby="toolkit-title">
+      <p class="eyebrow">TECHNICAL TOOLKIT</p><h2 id="toolkit-title" class="section-title">Tools for design &amp; development.</h2>
+      <div class="toolkit-grid">
+        <section><span class="tool-number">01</span><h3>CAD &amp; design</h3><ul class="plain-list"><li>SOLIDWORKS</li><li>Autodesk Fusion 360</li><li>3D modelling</li><li>Technical drawing</li></ul></section>
+        <section><span class="tool-number">02</span><h3>CFD &amp; simulation</h3><ul class="plain-list"><li>ANSYS Fluent</li><li>SOLIDWORKS Flow Simulation</li><li>SimScale</li><li>OpenFOAM</li></ul></section>
+        <section><span class="tool-number">03</span><h3>Engineering</h3><ul class="plain-list"><li>Aerodynamic analysis</li><li>Drag &amp; downforce assessment</li><li>FEA fundamentals</li><li>Design optimisation</li></ul></section>
+        <section><span class="tool-number">04</span><h3>Prototyping</h3><ul class="plain-list"><li>3D printing</li><li>Component development</li><li>Design iteration</li><li>Practical problem solving</li></ul></section>
+      </div>
+      <div class="toolkit-note"><p>My interests span mechanical component development and engineering drawings, automotive systems and vehicle performance, external aerodynamics and simulation-driven design.</p><p>Visual communication: Blender · Adobe Photoshop</p></div>
+    </section>
+    <section id="contact" class="contact-section" aria-labelledby="contact-title"><div><p class="eyebrow">CONTACT</p><h2 id="contact-title" class="section-title">Let’s discuss<br />engineering &amp; design.</h2><p>Interested in mechanical design, vehicle aerodynamics and high-performance engineering projects.</p></div><div class="contact-stack"><a href="mailto:raimilios@gmail.com">raimilios@gmail.com ↗</a><a href="https://www.linkedin.com/in/aimilios-romaios-1a919a291/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/aimiliosromaios" target="_blank" rel="noreferrer">GitHub ↗</a><span>Based in Greece</span></div></section>
+    <footer><span>© <span id="year">2026</span> Aimilios Romaios · Mechanical Engineering Portfolio</span><a href="#main">Back to top ↑</a></footer>
+  </main>
+</body>
 </html>
