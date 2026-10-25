@@ -13,7 +13,9 @@ Public address: https://aimiliosromaios.github.io/portfolio/
 - `education.html`: academic background, certifications and continued learning.
 - `creative.html`: automotive drawing, Photoshop and Etsy creative work.
 
-The original seven PNG assets remain unchanged. Images extracted from the supplied Word portfolio are optimised in `assets/portfolio/`. The original fonts and F1 disclosure pattern are retained, with charcoal and papaya styling for engineering and white layouts for education and creative work.
+The site uses compressed WebP images in `assets/web/`. Every image keeps the original pixel dimensions and proportions from the Word document, with no resizing or cropping. Web compression reduces file sizes; it is not a byte-for-byte copy of the original PNG/JPEG data. The grey padding is removed, while studio backgrounds that are part of the original artwork remain.
+
+The original fonts and F1 disclosure pattern are retained. Engineering uses charcoal and papaya, Education uses warm graphite with muted gold accents, and Art & Design uses slate with muted rose accents. Image frames have no fixed aspect ratio, crop or added grey padding.
 
 ## Preview
 
@@ -31,6 +33,8 @@ Open `index.html` directly in a browser. No installation or build is needed. All
 8. Wait for the Pages deployment to succeed in the repository's **Actions** or **Deployments** view, then visit https://aimiliosromaios.github.io/portfolio/ and refresh the page.
 
 ## Editing
+
+For this smaller upload, include the new `assets/web` folder. Existing `assets/native`, `assets/portfolio` and legacy images may remain in the repository; these pages no longer reference them. Do not upload the earlier large PNG/JPEG copies again. Stylesheet and script URLs retain their version values to avoid stale browser caches.
 
 Edit content in the corresponding HTML file. Shared appearance is in `styles.css`; the original component styles are followed by expansion styles. Menu and image viewer behaviour are in `script.js`. Keep the shared navigation in sync across all five pages.
 

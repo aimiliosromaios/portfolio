@@ -38,7 +38,12 @@ if (images.length && typeof HTMLDialogElement !== "undefined") {
   close.autofocus = true;
   const image = document.createElement("img");
   const caption = document.createElement("p");
-  dialog.append(close, image, caption);
+  const original = document.createElement("a");
+  original.className = "original-image-link";
+  original.textContent = "Open full-resolution image ↗";
+  original.target = "_blank";
+  original.rel = "noopener noreferrer";
+  dialog.append(close, image, caption, original);
   document.body.append(dialog);
   let trigger;
   images.forEach(link => link.addEventListener("click", event => {
@@ -46,6 +51,7 @@ if (images.length && typeof HTMLDialogElement !== "undefined") {
     trigger = link;
     image.src = link.href;
     image.alt = link.querySelector("img").alt;
+    original.href = link.href;
     caption.textContent = link.closest("figure").querySelector("figcaption")?.textContent || image.alt;
     dialog.showModal();
   }));
